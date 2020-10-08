@@ -4,7 +4,7 @@ msg1: .asciiz " Enter y : "
 msg2: .asciiz "\nEnter z : "
 msg3: .asciiz " Enter f : "
 msg4: .asciiz "\nEnter q : "
-result : .asciiz "\nThe result of addition is: "
+result : .asciiz "\nThe result is: "
 .text
 li $v0 ,4
 la $a0, msg1
